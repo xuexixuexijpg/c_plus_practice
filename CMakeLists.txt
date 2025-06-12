@@ -3,4 +3,6 @@ project(c_plus_practice)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c_plus_practice main.cpp)
+add_executable(c_plus_practice main.cpp
+        vector_p.cpp
+        vector_p.h)
