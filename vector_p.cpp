@@ -26,3 +26,11 @@ void VecPractice::test() {
     }
 }
 
+
+PragmaOnce::PragmaOnce() {
+
+}
+
+// 定义全局变量
+std::string global_name = "John Doe";
+const int global_age = 30;
