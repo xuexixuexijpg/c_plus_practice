@@ -6,7 +6,6 @@
 #define REFTYPE_H
 
 
-
 class RefType {
 
 };
@@ -15,5 +14,3 @@ class RefType {
 void testRef();
 
 #endif //REFTYPE_H
-
-

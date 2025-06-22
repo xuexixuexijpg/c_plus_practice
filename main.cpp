@@ -4,7 +4,6 @@
 
 #include "vector_p.h"
 #include "ref/RefType.h"
-#include "ref/RefType.cpp"
 
 // TIP 要<b>Run</b>代码，请按 <shortcut actionId="Run"/> 或点击装订区域中的 <icon src="AllIcons.Actions.Execute"/> 图标。
 int main() {
@@ -29,7 +28,6 @@ int main() {
 
     {
         testRef();
-        testRefType();
     }
 
     return 0;
