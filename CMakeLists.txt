@@ -8,8 +8,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 # 添加一个可执行文件
 # 语法：add_executable(目标名 源文件...)
-add_executable(c_plus_practice main.cpp
+add_executable(c_plus_practice
+        main.cpp
         vector_p.cpp
         vector_p.h
         ref/RefType.cpp
-        ref/RefType.h)
+        ref/RefType.h
+        ptr/ptr.cpp
+        ptr/ptr.h
+)
